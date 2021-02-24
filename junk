@@ -1,0 +1,63 @@
+/*window.addEventListener("keydown", my_keydown)
+function my_keydown(e) {
+    keypressed = e.keyCode
+    if (keypressed == '38') {
+        up1()
+        console.log("up()")
+    }
+    if (keypressed == '40') {
+        down1()
+        console.log("down()")
+    }
+    if (keypressed == '37') {
+        left1()
+        console.log("left()")
+    }
+    if (keypressed == '39') {
+        right1()
+        console.log("tight()")
+    }
+    if (keypressed == '38') {
+        up2()
+        console.log("up()")
+    }
+    if (keypressed == '40') {
+        down2()
+        console.log("down()")
+    }
+    if (keypressed == '37') {
+        left2()
+        console.log("left()")
+    }
+    if (keypressed == '39') {
+        right2()
+        console.log("tight()")
+    }
+}
+function up() {
+    if (rover_y >= 0) {
+        rover_y = rover_y - 10
+        uploadbackground()
+        uploadrover()
+    }
+}
+function down() {
+    if (rover_y <= 500) {
+        rover_y = rover_y + 10
+        uploadbackground()
+        uploadrover()
+    }
+}
+function left() {
+    if (rover_x >= 0) {
+        rover_x = rover_x - 10
+        uploadbackground()
+        uploadrover()
+    }
+}
+function right() {
+    if (rover_x <= 700) {
+        rover_x = rover_x + 10
+        uploadbackground()
+        uploadrover()
+    }*/
